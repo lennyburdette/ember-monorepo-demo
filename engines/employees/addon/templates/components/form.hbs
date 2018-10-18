@@ -1,0 +1,21 @@
+<form ...attributes>
+  <fieldset>
+    <legend>Edit “{{@employee.name}}”</legend>
+
+    <TextInput
+      @label="Name"
+      @value={{@employee.name}}
+      disabled={{@employee.readonly}}
+      required={{true}}
+    />
+
+    <TextInput
+      @label="Role"
+      @value={{@employee.role}}
+      disabled={{@employee.readonly}}
+      required={{true}}
+    />
+
+    <input class="btn btn-primary" type="submit" value="Save" />
+  </fieldset>
+</form>

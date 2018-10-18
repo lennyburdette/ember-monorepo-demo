@@ -1,0 +1,14 @@
+<table ...attributes>
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th class="payment-amount-column">Amount</th>
+      <th>Payment Card</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each @payments as |payment|}}
+      <Payment @payment={{payment}} />
+    {{/each}}
+  </tbody>
+</table>

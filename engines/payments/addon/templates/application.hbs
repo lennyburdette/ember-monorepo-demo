@@ -1,0 +1,14 @@
+<h2>Payments</h2>
+
+<PaymentGraph @payments={{this.model}} />
+
+<div class="payments-layout">
+  <Table
+    @payments={{this.model}}
+    class="payments-list"
+  />
+
+  <Form />
+
+  {{outlet}}
+</div>

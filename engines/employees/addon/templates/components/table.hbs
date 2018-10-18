@@ -1,0 +1,14 @@
+<table ...attributes>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Role</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each @employees as |employee|}}
+      <Employee @employee={{employee}} />
+    {{/each}}
+  </tbody>
+</table>

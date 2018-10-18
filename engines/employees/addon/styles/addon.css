@@ -1,0 +1,20 @@
+.employees-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 32px;
+  height: 100%;
+}
+
+.employees-list {
+  width: 100%;
+}
+
+.employees-list tbody tr:nth-child(odd) {
+  background-color: var(--light);
+}
+
+.employee-details {
+  border: 2px solid var(--dark);
+  border-radius: 8px;
+  padding: 16px;
+}

@@ -1,0 +1,1 @@
+export { default } from 'payment-graph/components/payment-graph';

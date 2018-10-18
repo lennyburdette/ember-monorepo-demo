@@ -1,0 +1,19 @@
+.payments-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 32px;
+  height: 100%;
+}
+
+.payments-list {
+  width: 100%;
+}
+
+.payments-list tbody tr:nth-child(odd) {
+  background-color: var(--light);
+}
+
+.payment-amount-column {
+  text-align: right;
+  padding-right: 16px;
+}
